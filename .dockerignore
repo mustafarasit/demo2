@@ -1,0 +1,27 @@
+target/
+!target/*.jar
+*.class
+*.log
+*.jar
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**
+!**/src/test/**
+
+# IDE
+.idea
+.vscode
+*.iml
+*.ipr
+*.iws
+
+# Git
+.git
+.gitignore
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Other
+README.md
+*.md
